@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profilul meu</title>
+    <link rel="stylesheet" href="../../css/index.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/user/avizier.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script src="../../js/avizierScript.js" type="text/javascript"></script>
+    <script
+      type="text/javascript"
+      src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://www.shieldui.com/shared/components/latest/js/jszip.min.js"
+    ></script>
+
+    <style>
+      body {
+        background-image: url("../../images/background.png");
+        background-size: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div class="Navbar">
+        <img src="../../images/calendar.png" class="Icon" />
+        <a href="index.html" class="NavItem NavItemFont">Profilul meu</a>
+        <a href="statistici.html" class="NavItem NavItemFont">Statistici</a>
+        <a href="avizier.html" class="NavItem NavItemFont" id="defaultItem">Avizier</a>
+        <a href="contoare.html" class="NavItem NavItemFont">Contoare</a>
+        <a href="plati.html" class="NavItem NavItemFont">Plati</a>
+        <a href="sesizari.html" class="NavItem NavItemFont">Sesizari</a>
+        <a href="poll.html" class="NavItem NavItemFont">Polls</a>
+        <a href="boxa.html" class="NavItem NavItemFont">Boxa</a>
+        <button
+          id="contactButton"
+          class="NavItemFont NavButton"
+          onclick="location.href='contacte.html';"
+        >
+          Contact
+        </button>
+        <a href="../login.html">
+          <img src="../../images/logout.png" class="LogoutIcon"
+        /></a>
+      </div>
+    </nav>
+
+    <div id="AvizierPage">
+      <h1 id="avizierText">- Avizier -</h1>
+      <div id="alignTableButtons">
+        <button class="DownloadButton" id="DownloadButton1">
+          Descarcă .pdf
+        </button>
+        <div class="tableborder">
+          <table class="AvizierTable" id="avizierTab1">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Locatar</th>
+                <th>Apartament</th>
+                <th>Salubritate</th>
+                <th>Ascensor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Condrachi M.</td>
+                <td>21</td>
+                <td>5</td>
+                <td>2€</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Toader A.</td>
+                <td>41</td>
+                <td>5</td>
+                <td>1€</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Cristescu L.</td>
+                <td>38</td>
+                <td>5</td>
+                <td>3€</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Popescu L.</td>
+                <td>43</td>
+                <td>5</td>
+                <td>3€</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Ciurea V.</td>
+                <td>45</td>
+                <td>5</td>
+                <td>3€</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Ionescu I.</td>
+                <td>39</td>
+                <td>5</td>
+                <td>5€</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Gerogescu G.</td>
+                <td>29</td>
+                <td>5</td>
+                <td>4€</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="AvizierTable" id="avizierTab2">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Locatar</th>
+                <th>Apartament</th>
+                <th>Salubritate</th>
+                <th>Ascensor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Condrachi M.</td>
+                <td>21</td>
+                <td>8</td>
+                <td>1€</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Toader A.</td>
+                <td>41</td>
+                <td>8</td>
+                <td>2€</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Cristescu L.</td>
+                <td>38</td>
+                <td>8</td>
+                <td>4€</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Popescu L.</td>
+                <td>43</td>
+                <td>8</td>
+                <td>4€</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Ciurea V.</td>
+                <td>45</td>
+                <td>8</td>
+                <td>6€</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Ionescu I.</td>
+                <td>39</td>
+                <td>8</td>
+                <td>2€</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Gerogescu G.</td>
+                <td>29</td>
+                <td>8</td>
+                <td>5€</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="AvizierTable" id="avizierTab3">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Locatar</th>
+                <th>Apartament</th>
+                <th>Salubritate</th>
+                <th>Ascensor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Popescu S.</td>
+                <td>21</td>
+                <td>9</td>
+                <td>3€</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Dorian A.</td>
+                <td>41</td>
+                <td>9</td>
+                <td>4€</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Cristescu L.</td>
+                <td>38</td>
+                <td>9</td>
+                <td>1€</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Popescu L.</td>
+                <td>43</td>
+                <td>9</td>
+                <td>5€</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Ciurea V.</td>
+                <td>45</td>
+                <td>8</td>
+                <td>6€</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Ionescu I.</td>
+                <td>39</td>
+                <td>9</td>
+                <td>2€</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Gerogescu G.</td>
+                <td>29</td>
+                <td>9</td>
+                <td>5€</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <h2 id="rapoarteLunareText">RAPOARTE LUNARE</h2>
+
+      <select id="Month">
+        <option value="" selected disabled hidden>Lună</option>
+        <option value="Ianuarie 2021">Ianuarie 2021</option>
+        <option value="Decembrie 2020">Decembrie 2020</option>
+        <option value="Octombrie 2020">Octombrie 2020</option>
+        <option value="Septembrie 2020">Septembrie 2020</option>
+        <option value="August 2020">August 2020</option>
+      </select>
+
+      <h1 id="anunturiText">- Anunțuri -</h1>
+
+      <ul>
+        <li>
+          1
+          <p id="anunt">
+            Luni, 09.11.2020 apa caldă va fi oprită între orele 08:00 - 11:00
+          </p>
+          <img src="../../images/exclamare.png" id="iconExclamare" />
+        </li>
+        <li>
+          2
+          <p id="anunt">
+            În data de 1 a fiecărei luni se va face dezinsecție pe scară
+          </p>
+          <img src="../../images/exclamare1.png" id="iconExclamare" />
+        </li>
+        <li>
+          3
+          <p id="anunt">
+            Pentru fondul de reparații, banii se strâng de către administrator
+            (apartamentul 23)
+          </p>
+          <img src="../../images/exclamare1.png" id="iconExclamare" />
+        </li>
+        <li>
+          4
+          <p id="anunt">
+            Se va întrerupe alimentarea cu apă timp de 2 ore, în data de
+            20.12.2020
+          </p>
+          <img src="../../images/exclamare.png" id="iconExclamare" />
+        </li>
+        <li>
+          5
+          <p id="anunt">
+            Curățenia pe scară se va face de două ori pe săptămână: Luni și
+            Vineri
+          </p>
+          <img src="../../images/exclamare1.png" id="iconExclamare" />
+        </li>
+        <li>
+          6
+          <p id="anunt">Citirea contoarelor se va face Luni 11.01.2021</p>
+          <img src="../../images/exclamare.png" id="iconExclamare" />
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

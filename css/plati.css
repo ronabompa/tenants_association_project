@@ -1,0 +1,185 @@
+.PageContent {
+  height: auto;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.Navbar {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #a3a3a3;
+}
+
+.NavItem {
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 5px;
+  color: #5c5e5e;
+}
+
+.NavButton {
+  color: white;
+  background-color: #5c5e5e;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.Icon {
+  margin-left: 20px;
+  width: 3%;
+}
+
+.LogoutIcon {
+  width: 25px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.CurrentBillDiv {
+  width: 700px;
+  margin: 0 auto;
+  height: 130px;
+}
+
+.TitleDiv {
+  display: inline-flex;
+  width: 270px;
+}
+
+.PriceDiv {
+  display: inline-flex;
+  width: 250px;
+}
+
+.PayButton {
+  width: 150px;
+  height: 35px;
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.PaymentHistoryTable {
+  overflow-y: scroll;
+  width: 700px;
+  height: 334px;
+  display: block;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.PaymentHistoryTable th,
+.PaymentHistoryTable td {
+  border: 1px solid grey;
+  padding: 7px;
+  text-align: center;
+}
+
+.PaymentHistoryTable tr:nth-child(odd) {
+  background-color: #d4d4d4;
+}
+
+.PaymentHistoryTable th {
+  width: 233px;
+}
+
+.OnlinePayment {
+  background-color: white;
+  width: 0px;
+  height: 0px;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -450px;
+  position: fixed;
+  border: 1px solid gray;
+  font-family: Helvetica, sans-serif;
+  visibility: hidden;
+}
+
+.OnlinePayment label {
+  font-size: 17px;
+}
+
+.InfoDiv {
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+#CardNumber {
+  width: 350px;
+  height: 25px;
+  margin-left: 50px;
+  font-size: 15px;
+  color: #5c5e5e;
+  font-weight: bold;
+}
+
+#CardHolder {
+  width: 350px;
+  height: 25px;
+  margin-left: 32px;
+  font-size: 15px;
+  color: #5c5e5e;
+  font-weight: bold;
+}
+
+#Month {
+  width: 170px;
+  height: 29px;
+  margin-left: 38px;
+  font-size: 15px;
+  color: #5c5e5e;
+  font-weight: bold;
+}
+
+#Year {
+  width: 170px;
+  height: 29px;
+  margin-left: 12px;
+  font-size: 15px;
+  color: #5c5e5e;
+  font-weight: bold;
+}
+
+#CCVCode {
+  width: 100px;
+  height: 25px;
+  margin-left: 68px;
+  font-size: 15px;
+  color: #5c5e5e;
+  font-weight: bold;
+}
+
+#PayButton2 {
+  float: right;
+  margin-right: 98px;
+  margin-top: 90px;
+  background-color: black;
+  color: white;
+  height: 45px;
+  width: 120px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+#CloseIcon {
+  float: right;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+.Wrong {
+  border-color: rgb(207, 12, 12);
+}

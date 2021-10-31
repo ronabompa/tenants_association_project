@@ -1,0 +1,108 @@
+.ActiveAnnouncements {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+ul {
+  color: grey;
+  font-weight: 600;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+  width: 900px;
+  height: 140px;
+  border: 1px solid grey;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+li {
+  padding: 10px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+li:nth-child(even) {
+  background: #f8f8f8;
+}
+
+#anunt {
+  margin-left: 30px;
+  display: inline;
+}
+
+#iconExclamare {
+  float: right;
+}
+
+.NewAnnouncementDiv {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+.AnnouncementForm {
+  display: block;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+.InputLabel {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.FormInput {
+  width: 600px;
+  font-family: Helvetica, sans-serif;
+}
+
+.SingleLineInput {
+  height: 25px;
+}
+
+.Warning {
+  font-size: 12px;
+  color: darkgrey;
+  margin-top: 2px;
+}
+
+.OptionsDiv {
+  width: 600px;
+  height: 60px;
+  display: inline-block;
+}
+
+.AnnouncementType,
+.AnnouncementImportance {
+  width: 200px;
+  display: inline-block;
+}
+
+.AddButton {
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #02aeb1;
+  border-radius: 5px;
+  float: right;
+}
+
+.Wrong {
+  border-color: rgb(207, 12, 12);
+}

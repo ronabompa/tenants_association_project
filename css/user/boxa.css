@@ -1,0 +1,277 @@
+/* h1 - Mesaj catre administrator */
+#revervareID {
+    color: #343F4B;
+    font-family: Abril Fatface, serif;
+    font-size: 28px;
+    line-height: 33px;
+    width: 389px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-weight: 1000;
+}
+
+#formID {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+/* radio buttons */
+
+#labelDulapID {
+    color: #47525E;
+    font-family: Cardo, serif;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+#dulap {
+    background-color: #FFFFFF;
+    border: 1px solid #343F4B;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+#labelLocBiciID {
+    color: #343F4B;
+    font-family: Cardo, serif;
+    font-size: 20px;
+    line-height: 33px;
+    width: 180px;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#locBici {
+    background-color: #FFFFFF;
+    border: 1px solid #343F4B;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+/* SELECTS */
+
+#selectDulap {
+    background-color: #4E9C9C;
+    border: 1px solid #8492A6;
+    border-radius: 5px;
+    width: 120px;
+    height: 39px;
+    color: white;
+}
+
+
+#selectLocBici {
+    background-color: #4E9C9C;
+    border: 1px solid #8492A6;
+    border-radius: 5px;
+    width: 120px;
+    height: 39px;
+    color: white;
+}
+
+
+/* LABELS & INPUTS */
+
+/* cost*/
+#labelCostID {
+    color: #343F4B;
+    font-family: Cardo, serif;
+    font-size: 11px;
+    line-height: 33px;
+    width: 78px;
+    text-align: left;
+}
+
+#cost_input {
+    background-color: #4E9C9C;
+    border: 1px solid #343F4B;
+    width: 627px;
+    height: 42px;
+    color: white;
+    font-size: 18px;
+}
+
+/* name */
+#labelNumeID {
+    color: #343F4B;
+    font-family: Cardo, serif;
+    font-size: 11px;
+    line-height: 33px;
+    width: 44px;
+    text-align: left;
+}
+
+#nume_input {
+    background-color: rgba(195, 195, 195, 0.18);
+    border: 1px solid #343F4B;
+    width: 296px;
+    height: 42px;
+}
+
+
+/* telefon */
+#labelTelefonID {
+    color: #343F4B;
+    font-family: Cardo, serif;
+    font-size: 11px;
+    line-height: 33px;
+    width: 74px;
+    text-align: left;
+}
+
+#telefon_input {
+    background-color: rgba(195, 195, 195, 0.18);
+    border: 1px solid #343F4B;
+    width: 296px;
+    height: 42px;
+}
+
+/* apartament */
+#labelApartamentID {
+    color: #343F4B;
+    font-family: Cardo, serif;
+    font-size: 11px;
+    line-height: 33px;
+    width: 87px;
+    text-align: left;
+}
+
+#apartament_input {
+    background-color: rgba(145, 209, 210, 0.66);
+    border: 1px solid #343F4B;
+    width: 294px;
+    height: 53px;
+}
+
+/* email */
+#labelEmailID {
+    color: #343F4B;
+    font-family: Cardo, serif;
+    font-size: 11px;
+    line-height: 33px;
+    width: 87px;
+    text-align: left;
+}
+
+#email_input {
+    background-color: rgba(145, 209, 210, 0.66);
+    border: 1px solid #343F4B;
+    width: 289px;
+    height: 53px;
+}
+
+
+/*** BUTTONS ***/
+#rezervaID{
+    background-color: #4E9C9C;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    width: 280px;
+    height: 35px;
+    color: #FFFFFF;
+    font-family: Abril Fatface, serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#anuleazaID{
+    background-color: #CAD3DE;
+    border-radius: 5px;
+    width: 280px;
+    height: 35px;
+    color: #FFFFFF;
+    font-family: Abril Fatface, serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+/**** DIVs ****/
+
+#div_radioDulap,#div_selectDulap,#div_dateStartDulap,#div_dateEndDulap
+{
+    display: inline-block;
+    padding: 3px;
+}
+
+#div_radioLocBici,#div_selectLocBici,#div_dateStartLocBici,#div_dateEndLocBici
+{
+    display: inline-block;
+}
+
+#div_selectLocBici,#div_dateStartLocBici,#div_dateEndLocBici
+{
+    display: inline-block;
+    padding: 5px;
+}
+
+#div_textInputs_buttons
+{
+    width: 633px;
+    margin-top: 180px;
+}
+
+#div_radioDulap, #div_radioLocBici {
+    width: 240px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+/* div small insputs */
+#div_nume_ap, #div_telefon_email {
+    display: inline-block;
+    width: 310px;
+}
+#div_cost_input {
+    margin-bottom: 25px;
+}
+
+#div_small_inputs {
+    display: inline-block;
+}
+
+#div_rezerva, #div_anuleaza
+{
+    display: inline-block;
+    width: 300px;
+    margin-left: 5px;
+    margin-top: 35px;
+}
+
+/* SPATIU REZERVAT MESAJ */
+#divSpatiuRezervatID {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    background-color: rgba(145, 209, 210, 0.66);
+    border: 1px solid #343F4B;
+    width: 635px;
+    height: 390px;
+}
+
+#divSpatiuRezervatID p
+{
+    color: black;
+    /*margin-top: 80px;*/
+    margin-left: 50px;
+    font-family: Cardo, serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    width: 480px;
+    text-align: left;
+}

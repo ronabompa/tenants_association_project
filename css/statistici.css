@@ -1,0 +1,132 @@
+.dropbtn {
+    background-color: #4cc9c2;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    left: 650px;
+    width: 250px;
+    grid-area: btn;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #7f9192;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b4e7e5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 650px;
+    top: 50px;
+    width : 250px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  .show {display:block;}
+
+  .grid-container{
+    display : grid;
+    /* grid-template-areas:  "blank blank btn blank blank"
+                          "pop1 blank blank blank blank"
+                          "blank blank blank blank blank"
+                          "blank blank pic blank  blank"
+                          "blank balnk pic blank blank"; */
+    grid-template-areas:  "navBar navBar navBar"
+                          "balnk1 btn blank2"
+                          "blank1 pic blank2"
+                          "blank1 pic blank2";
+    grid-row-gap: 100px;
+    /*grid-column-gap: 100px;*/
+
+  }
+
+
+  .grid-poza{
+    grid-area: pic;
+  }
+
+  /* .blankC{
+    grid-area: blank;
+  } */
+
+  .blankC1{
+    grid-area: blank1;
+  }
+
+  .blankC2{
+    grid-area: blank2;
+  }
+
+ /* .tooltip {
+    grid-area: pic;
+  } */
+  
+  .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  }
+  
+  .grid-poza:hover .tooltiptext {
+    visibility: visible;
+  } 
+  .Navbar {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #a3a3a3;
+    grid-area: navBar;
+  }
+  
+  .NavItem {
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 5px;
+    color: #5c5e5e;
+  }
+  
+  .NavButton {
+    color: white;
+    background-color: #5c5e5e;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .Icon {
+    margin-left: 20px;
+    width: 3%;
+  }
+  
+  .LogoutIcon {
+    width: 25px;
+    margin-right: 5px;
+    margin-top: 5px;
+  }

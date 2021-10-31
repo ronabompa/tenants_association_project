@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista sesizari</title>
+    <link rel="stylesheet" href="../../css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="../../css/fonts.css" type="text/css"/>
+    <link
+            rel="stylesheet"
+            href="../../css/admin/lista-sesizari.css"
+            type="text/css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script
+            src="../../js/lista-sesizari.js"
+            type="text/javascript"
+    ></script>
+    <style>
+        body {
+            background-image: url("../../images/background.png");
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<nav>
+    <div class="Navbar">
+        <img src="../../images/announcement.png" class="Icon"/>
+        <a href="index.html" class="NavItem NavItemFont">Profilul meu</a>
+<!--        <a href="#" class="NavItem NavItemFont">Statistici</a>-->
+        <a href="anunturi.html" class="NavItem NavItemFont"
+        >Anunturi</a
+        >
+        <a href="contoare.html" class="NavItem NavItemFont">Contoare</a>
+        <a href="plati.html" class="NavItem NavItemFont">Plati</a>
+        <a href="lista-sesizari.html" class="NavItem NavItemFont" id="defaultItem">Sesizari</a>
+        <a href="poll.html" class="NavItem NavItemFont">Polls</a>
+        <button
+                id="contactButton"
+                class="NavItemFont NavButton"
+                onclick="location.href='contacte.html';"
+        >
+            Contact
+        </button>
+        <a href="../login.html">
+            <img src="../../images/logout.png" class="LogoutIcon"
+            /></a>
+    </div>
+</nav>
+
+<div class="ListaSesizari">
+    <ul>
+        <li>
+            <span id="span_img1"> <img width="60" height="60" src="../../images/human-icon.png"> </span>
+            <div id="subiect1">
+                <p> Subiect: Nu am apa la robinet </p>
+                <p> Locatar Ion Ionescu </p>
+            </div>
+            <span id="span_excl1"> <img width="32" height="32" src="../../images/exclam_sign_icon.png"> </span>
+            <button id="button_rasp1"> Raspunde</button>
+
+            <div class="answered x1">
+                <span id="span_x1_ans"> <img width="38" height="38" src="../../images/x_debifat.png"
+                                             id="x1_ans"> </span>
+                <span id="span_bifa1_ans"> <img width="38" height="38" src="../../images/bifa_bifata.png"
+                                                id="bifa1_ans"> </span>
+            </div>
+            <div class="not_answered x1">
+                <span id="span_x1"> <img width="38" height="38" src="../../images/x_bifat.png" id="x1"> </span>
+                <span id="span_bifa1"> <img width="38" height="38" src="../../images/bifa_debifata.png"
+                                            id="bifa1"> </span>
+            </div>
+        </li>
+
+        <li>
+            <span id="span_img2"> <img width="60" height="60" src="../../images/human-icon.png"> </span>
+            <div id="subiect2">
+                <p> Subiect: Ma deranjeaza vecina </p>
+                <p> Locatar: Mihai Mihai </p>
+            </div>
+            <span id="span_excl2"> <img width="32" height="32" src="../../images/exclam_sign_icon.png"> </span>
+            <button id="button_rasp2"> Raspunde</button>
+            <span id="span_x2"> <img width="38" height="38" src="../../images/x_bifat.png" id="x2"> </span>
+            <span id="span_bifa2"> <img width="38" height="38" src="../../images/bifa_debifata.png" id="bifa2"> </span>
+        </li>
+
+        <li>
+            <span id="span_img3"> <img width="60" height="60" src="../../images/human-icon.png"> </span>
+            <div id="subiect3">
+                <p> Subiect: S-a ars becul pe scara </p>
+                <p> Locatar: Iliescu Tamara </p>
+            </div>
+            <span id="span_excl3"> <img width="33" height="33" src="../../images/exclam_sign_icon.png"> </span>
+            <button id="button_rasp3"> Raspunde</button>
+            <span id="span_x3"> <img width="38" height="38" src="../../images/x_debifat.png" id="x3"> </span>
+            <span id="span_bifa3"> <img width="38" height="38" src="../../images/bifa_bifata.png" id="bifa3"> </span>
+        </li>
+        <li>
+            <span id="span_img4"> <img width="60" height="60" src="../../images/human-icon.png"> </span>
+            <div id="subiect4">
+                <p> Subiect: Murdar pe scara </p>
+                <p> Locatar: Popescu Estera </p>
+            </div>
+            <span id="span_excl4"> <img width="33" height="33" src="../../images/exclam_sign_icon.png"> </span>
+            <button id="button_rasp4"> Raspunde</button>
+            <span id="span_x4"> <img width="38" height="38" src="../../images/x_debifat.png" id="x4"> </span>
+            <span id="span_bifa4"> <img width="38" height="38" src="../../images/bifa_bifata.png" id="bifa4"> </span>
+
+        </li>
+        <li>
+            <span id="span_img5"> <img width="60" height="60" src="../../images/human-icon.png"> </span>
+            <div id="subiect5">
+                <p> Subiect: Parcare Subterana </p>
+                <p> Locatar: Ilie Iliescu </p>
+            </div>
+            <span id="span_excl5"> <img width="33" height="33" src="../../images/exclam_sign_icon.png"> </span>
+            <button id="button_rasp5"> Raspunde</button>
+            <span id="span_x5"> <img width="38" height="38" src="../../images/x_bifat.png" id="x5"> </span>
+            <span id="span_bifa5"> <img width="38" height="38" src="../../images/bifa_debifata.png" id="bifa5"> </span>
+
+        </li>
+    </ul>
+
+    <div id="div_replyForm">
+        <form id="replyForm">
+            <div id="elements">
+
+                <input type="button" id="button_B" class="elementButtons" value="B"/>
+                <input type="button" id="button_I" class="elementButtons" value="I"/>
+                <input type="button" id="button_U" class="elementButtons" value="U"/>
+<!--                <input type="button" id="button_ABC" class="elementButtons" value="ABC"/>-->
+
+                <input type="button" id="button_list_dots" class="elementButtons"  src="../../images/list_dots_icon.png"/>
+                <input type="button" id="button_list_numbers" class="elementButtons" src="../../images/list_numbers_icon.png"/>
+                <input type="color" id="button_color" class="elementButtons" src="../../images/el_color_icon.png"/>
+                <input type="button" id="button_align_left" class="elementButtons" src="../../images/el_align_left_icon.png"/>
+                <input type="button" id="button_align_center" class="elementButtons" src=""/>
+                <input type="button" id="button_align_right" class="elementButtons" />
+
+            </div>
+
+            <textarea id="message_input"> </textarea>
+
+
+            <input id="trimiteID" type="button" value="Trimite" disabled/>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>

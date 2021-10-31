@@ -1,0 +1,256 @@
+/* h1 - Mesaj catre administrator */
+#mesajID {
+    color: #343F4B;
+    font-family: Abril Fatface, serif;
+    font-size: 28px;
+    line-height: 33px;
+    width: 389px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-weight: 1000;
+}
+
+/* label si input Titlu*/
+#labelTitluID {
+    color: #343F4B;
+    font-family: Cardo, serif;
+    font-size: 11px;
+    line-height: 33px;
+    width: 63px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title_input{
+    /*background-color: rgba(63, 129, 92, 0);*/
+    background-color: rgba(195, 195, 195, 0.18);
+    border: 1px solid #343F4B;
+    width: 724px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* label si input Mesaj*/
+#labelMesajID {
+     color: #343F4B;
+     font-family: Cardo, serif;
+     font-size: 11px;
+     line-height: 33px;
+     width: 48px;
+     text-align: left;
+ }
+
+#message_input {
+    /*background-color: rgba(255, 255, 255, 0);*/
+    background-color: rgba(145, 209, 210, 0.66);
+    border: 1px solid #343F4B;
+    width: 720px;
+    height: 258px;
+}
+
+/* label si input ATTACHMENT*/
+#labelAtasamentID {
+    color: #343F4B;
+    font-family: Cardo, serif;
+    font-size: 11px;
+    line-height: 33px;
+    width: 389px;
+    text-align: left;
+}
+
+#attachment_input {
+    visibility: hidden;
+    /*background-color: #4E9C9C;*/
+    /*border: 1px solid #000000;*/
+    /*width: 737px;*/
+    /*height: 33px;*/
+
+}
+
+#divAttachmentID {
+    background-color: #4E9C9C;
+    border: 1px solid #000000;
+    width: 737px;
+    height: 33px;
+}
+
+/* label si radio buttons Sugestie & Sesizare*/
+#labelSugestieID {
+    color: #343F4B;
+    font-family: Cardo, serif;
+    font-size: 20px;
+    line-height: 33px;
+    width: 112px;
+    text-align: left;
+}
+
+#labelSesizareID {
+    color: #343F4B;
+    font-family: Cardo, serif;
+    font-size: 20px;
+    line-height: 33px;
+    width: 134px;
+    text-align: left;
+}
+
+#sugestie {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+}
+
+#sesizare {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+}
+
+/* label si radio buttons Niv Importanta*/
+#nivUrgID {
+    color: #47525E;
+    font-family: Cardo, serif;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: right;
+}
+
+#niv_urg_1 {
+    background-color: #4E9C9C;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    width: 34px;
+    height: 34px;
+}
+
+#niv_urg_2 {
+    background-color: rgba(255, 200, 44, 0);
+    border: 1px solid #000000;
+    border-radius: 100%;
+    width: 34px;
+    height: 34px;
+}
+
+/* butoane TRIMITE & ANULEAZA*/
+#trimiteID {
+    background-color: #4E9C9C;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    width: 280px;
+    height: 35px;
+    color: #FFFFFF;
+    font-family: Abril Fatface, serif;
+    font-size: 16px;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#anuleazaID {
+    background-color: #CAD3DE;
+    border-radius: 5px;
+    width: 280px;
+    height: 35px;
+    color: #FFFFFF;
+    font-family: Abril Fatface, serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+/* DIVS */
+#divFormID {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* DIV sugestii & sesizari*/
+#divSugestieID {
+    display: block;
+    width: 200px;
+}
+#divSesizareID {
+    display: block;
+    width: 200px;
+}
+
+/* DIV niv importanta*/
+#divNivImpID {
+    display: inline-block;
+    width: 55%;
+}
+
+#divUrg1ID {
+    display: inline-block;
+    width: 20%;
+}
+
+#divUrg2ID {
+    display: inline-block;
+    width: 20%;
+}
+
+
+/* DIV all radio buttons*/
+#divsugestie-sesizareID {
+    display: inline-block;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#divAllNivImpID {
+    display: inline-block;
+    width: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* DIV BUTTONS */
+#divTrimite {
+    display: inline;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+#divAnuleaza {
+    display: inline;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+
+/* MESAJ FINAL*/
+
+#divMesajTrimisID {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    background-color: #FFFFFF;
+    border: 1px solid #343F4B;
+    width: 543px;
+    height: 196px;
+}
+
+#mesajTrimisID {
+    margin-top: 80px;
+    margin-left: 50px;
+    color: #343F4B;
+    font-family: Abril Fatface, serif;
+    font-weight: 1000;
+    font-size: 28px;
+    line-height: 33px;
+    width: 389px;
+    text-align: center;
+}

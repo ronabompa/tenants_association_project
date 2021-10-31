@@ -1,0 +1,51 @@
+.ButtonFont {
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.InputFont {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.NavItemFont {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+#defaultItem {
+  color: white;
+  background-color: #02aeb1;
+  border-radius: 6px;
+  opacity: 0.5;
+}
+
+/* a:hover {
+  color: white;
+  background-color: #02aeb1;
+  border-radius: 6px;
+  opacity: 0.5;
+} */
+
+.ParagraphFont {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.Bold {
+  font-weight: bold;
+}
+
+.DarkGrey {
+  color: rgb(92, 92, 92);
+}
+
+.LightGrey {
+  color: gray;
+}
+
+.Title {
+  font-family: Helvetica, sans-serif;
+}

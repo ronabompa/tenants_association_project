@@ -1,0 +1,110 @@
+.myForm{
+    position: fixed;
+    left: 250px;
+}
+
+.myForm2{
+    position: fixed;
+    left: 250px;
+}
+
+#optionbtn, #optionbtn1{
+    background-color: #4cc9c2;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#optionbtn{
+    position: fixed;
+    left: 250px;
+}
+
+#optionbtn1{
+    position: fixed;
+    left: 250px;
+}
+
+.savebtn{
+    background-color: #4cc9c2;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    left: 650px;
+}
+
+.myForm p{
+    font-size: xx-large;
+    color: #566d6c;
+}
+
+.myForm label{
+    font-size: x-large;
+    color: #6b8a88;  
+}
+
+.myForm2 p{
+    font-size: xx-large;
+    color: #566d6c;
+}
+
+.myForm2 label{
+    font-size: x-large;
+    color: #6b8a88;  
+}
+
+#firstSugestion{
+    position: fixed;
+    left: 250px;
+    font-size: xx-large;
+    color: #566d6c;
+}
+
+#secondSugestion{
+    position: fixed;
+    left: 250px;
+    font-size: xx-large;
+    color: #566d6c;
+}
+.Navbar {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #a3a3a3;
+  }
+  
+  .NavItem {
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 5px;
+    color: #5c5e5e;
+  }
+  
+  .NavButton {
+    color: white;
+    background-color: #5c5e5e;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  
+.Icon {
+    margin-left: 20px;
+    width: 3%;
+  }
+  
+  .LogoutIcon {
+    width: 25px;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  

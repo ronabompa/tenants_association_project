@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <title>Boxa</title>
+    <link rel="stylesheet" href="../../css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="../../css/fonts.css" type="text/css"/>
+    <link rel="stylesheet" href="../../css/user/boxa.css" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <SCRIPT src="../../js/boxa.js" type="text/javascript"></SCRIPT>
+    <style>
+        body {
+            background-image: url("../../images/background.png");
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<nav>
+    <div class="Navbar">
+        <img src="../../images/calendar.png" class="Icon" alt="no image"/>
+        <a href="index.html" class="NavItem NavItemFont">Profilul meu</a>
+        <a href="statistici.html" class="NavItem NavItemFont">Statistici</a>
+        <a href="avizier.html" class="NavItem NavItemFont">Avizier</a>
+        <a href="contoare.html" class="NavItem NavItemFont">Contoare</a>
+        <a href="plati.html" class="NavItem NavItemFont">Plati</a>
+        <a href="sesizari.html" class="NavItem NavItemFont">Sesizari</a>
+        <a href="poll.html" class="NavItem NavItemFont">Polls</a>
+        <a href="boxa.html" class="NavItem NavItemFont" id="defaultItem">Boxa</a>
+        <button
+                id="contactButton"
+                class="NavItemFont NavButton"
+                onclick="location.href='contacte.html';"
+        >
+            Contact
+        </button>
+        <a href="../login.html">
+            <img src="../../images/logout.png" class="LogoutIcon"
+                 alt="no image"/></a>
+    </div>
+</nav>
+
+<div id="BoxaPage">
+
+    <h1 id="revervareID"> Rezervare Spatiu Boxa </h1>
+
+    <form id="formID">
+
+        <div id="div_reservationInfo">
+            <div id="div_dulap_line">
+                <!-- radio buttons -->
+                <div id="div_radioDulap">
+                    <label for="dulap" id="labelDulapID"> DULAP </label>
+                    <input type="radio" id="dulap" name="tip_spatiu" value="dulap"/>
+                </div>
+
+                <!-- selects  -->
+                <div id="div_selectDulap">
+                    <select name="number" id="selectDulap">
+                        <option value="-1"> Selecteaza</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+
+                <!--  dates -->
+                <div id="div_dateStartDulap">
+                    <input type="date" id="dateStartDulap" name="dataStart"/>
+                </div>
+                <div id="div_dateEndDulap">
+                    <input type="date" id="dateEndDulap" name="dataEnd"/>
+                </div>
+            </div>
+
+            <div id="div_locBici_line">
+                <!-- radio buttons -->
+                <div id="div_radioLocBici">
+                    <label for="locBici" id="labelLocBiciID"> LOC DEPOZITARE BICICLETA </label>
+                    <input type="radio" id="locBici" name="tip_spatiu" value="locBici"/>
+                </div>
+
+                <!-- selects  -->
+                <div id="div_selectLocBici">
+                    <select name="number" id="selectLocBici">
+                        <option value="-1"> Selecteaza</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+
+                <!--  dates -->
+                <div id="div_dateStartLocBici">
+                    <input type="date" id="dateStartLocBici" name="dataStart"/>
+                </div>
+                <div id="div_dateEndLocBici">
+                    <input type="date" id="dateEndLocBici" name="dataEnd"/>
+                </div>
+            </div>
+        </div>
+
+        <div id="div_textInputs_buttons">
+
+            <!-- INPUTS -->
+            <div id="div_cost_input">
+                <label for="cost_input" id="labelCostID"> COST TOTAL * </label>
+                <input type="text" id="cost_input" disabled/>
+            </div>
+
+            <div id="div_small_inputs">
+                <div id="div_nume_ap">
+                    <div id="div_nume_input">
+                        <label for="nume_input" id="labelNumeID"> NUME * </label>
+                        <input type="text" id="nume_input"/>
+                    </div>
+
+                    <div id="div_apartament_input">
+                        <label for="apartament_input" id="labelApartamentID"> APARTAMENT * </label>
+                        <input type="text" id="apartament_input"/>
+                    </div>
+                </div>
+
+                <div id="div_telefon_email">
+                    <div id="div_telefon_input">
+                        <label for="telefon_input" id="labelTelefonID"> TELEFON * </label>
+                        <input type="text" id="telefon_input"/>
+                    </div>
+
+                    <div id="div_email_input">
+                        <label for="email_input" id="labelEmailID"> EMAIL * </label>
+                        <input type="text" id="email_input"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BUTTONS  -->
+            <div id="div_rezerva">
+                <input id="rezervaID" type="button" value="Rezerva" disabled/>
+            </div>
+            <div id="div_anuleaza">
+                <input id="anuleazaID" type="reset" value="Anuleaza"/>
+            </div>
+        </div>
+
+
+    </form>
+
+    <div id="divSpatiuRezervatID">
+        <p> Rezervarea s-a efectuat cu succes! </p>
+        <p> Ati rezervat <span id="span_nrSpatii">  </span>
+            spatii pentru <span id="span_tipSpatiu">  </span>
+            pentru <span id="span_perioada">  </span></p>
+
+        <p> Cost total: <span id="span_cost"> </span> lei.</p>
+
+        <p> Cheile se pot ridica de la administrator dupa achitarea chiriei </p>
+
+
+    </div>
+
+</div>
+</body>
+</html>

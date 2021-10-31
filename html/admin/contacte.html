@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contacte</title>
+    <link rel="stylesheet" href="../../css/contacte.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/index.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/fonts.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../js/contactscript.js" type="text/javascript"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAk0XQTVZy5rL5eXbidP3gVk0cu-jMQKZ4&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+
+    <style>
+      body {
+        background-image: url("../../images/background.png");
+        background-size: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div class="Navbar">
+        <img src="../../images/map.png" class="Icon" />
+        <a href="index.html" class="NavItem NavItemFont">Profilul meu</a>
+<!--        <a href="#" class="NavItem NavItemFont">Statistici</a>-->
+        <a href="anunturi.html" class="NavItem NavItemFont">Anunturi</a>
+        <a href="contoare.html" class="NavItem NavItemFont">Contoare</a>
+        <a href="plati.html" class="NavItem NavItemFont">Plati</a>
+        <a href="lista-sesizari.html" class="NavItem NavItemFont">Sesizari</a>
+        <a href="poll.html" class="NavItem NavItemFont">Polls</a>
+        <button
+          id="contactButton"
+          class="NavItemFont NavButton"
+          onclick="location.href='contacte.html';"
+        >
+          Contact
+        </button>
+        <a href="../login.html">
+          <img src="../../images/logout.png" class="LogoutIcon"
+        /></a>
+      </div>
+    </nav>
+
+    <div class="PageContent">
+      <div class="ContactsDiv">
+        <table class="ContactsData">
+          <tr>
+            <td>
+              <p class="Name">Administrator: Ion Ionescu</p>
+              <p class="Address">Apartament 28</p>
+            </td>
+            <td>
+              <a href="mailto:ion.ionescu@gmail.com" class="Email"
+                >ion.ionescu@gmail.com</a
+              >
+            </td>
+            <td><p class="Phone">0740 678 229</p></td>
+          </tr>
+          <tr>
+            <td>
+              <p class="Name">Primăria Municipiului Cluj-Napoca</p>
+              <p class="Address">Calea Moților 3, Cluj-Napoca 400001</p>
+            </td>
+            <td>
+              <a href="mailto:registratura@primariaclujnapoca.ro" class="Email"
+                >registratura@primariaclujnapoca.ro</a
+              >
+            </td>
+            <td><p class="Phone">0264 596 030</p></td>
+          </tr>
+          <tr>
+            <td>
+              <p class="Name">Poliția Cluj-Napoca</p>
+              <p class="Address">Strada Decebal 26, CLuj-Napoca, 400124</p>
+            </td>
+            <td>
+              <a href="mailto:cabinet@cj.politiaromana.ro" class="Email"
+                >cabinet@cj.politiaromana.ro</a
+              >
+            </td>
+            <td><p class="Phone">0264 401 075</p></td>
+          </tr>
+          <tr>
+            <td>
+              <p class="Name">Inspectoratul pentru Situații de Urgență</p>
+              <p class="Address">
+                Bulevardul 21 Decembrie 1989 69-71, Cluj-Napoca 400124
+              </p>
+            </td>
+            <td>
+              <a href="mailto:isujcj@yahoo.com" class="Email"
+                >isujcj@yahoo.com</a
+              >
+            </td>
+            <td><p class="Phone">0264 591 255</p></td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="Map"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+.PageContent {
+  height: auto;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.Navbar {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #a3a3a3;
+}
+
+.NavItem {
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 5px;
+  color: #5c5e5e;
+}
+
+.NavItem:hover {
+  color: white;
+  background-color: #02aeb1;
+  border-radius: 6px;
+  opacity: 0.5;
+}
+
+.NavButton {
+  color: white;
+  background-color: #5c5e5e;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.Icon {
+  margin-left: 20px;
+  width: 3%;
+}
+
+.LogoutIcon {
+  width: 25px;
+  margin-right: 5px;
+  margin-top: 5px;
+}

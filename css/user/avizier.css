@@ -1,0 +1,147 @@
+#AvizierPage {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#avizierText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#rapoarteLunareText {
+    font-size: 15px;
+    font-weight: 550;
+    letter-spacing: 0.3px;
+    margin-left: -650px;
+    margin-top: -150px;
+}
+
+
+.tableborder {
+    margin-left: 60px;
+    margin-top: 30px;
+    border: 3px solid #02aeb1;
+    position: relative;
+}
+
+.AvizierTable {
+    overflow-y: scroll;
+    width: 600px;
+    height: 195px;
+    display: block;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+
+  #avizierTab1 {
+    visibility: hidden;
+  }
+
+  #avizierTab2 {
+    visibility: hidden;
+  }
+
+  #avizierTab3 {
+    visibility: hidden;
+  }
+  
+  .AvizierTable th,
+  .AvizierTable td {
+    border: 1px solid grey;
+    padding: 7px;
+    text-align: center;
+  }
+  
+  .AvizierTable tr:nth-child(odd) {
+    background-color: #d4d4d4;
+  }
+  
+  .AvizierTable th {
+    width: 233px;
+  }
+
+  #alignTableButtons {
+      display: flex;
+  }
+
+  .DownloadButton {
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    margin-left: 20px;
+    background-color: #02aeb1;
+    color: white;
+    border-radius: 5px;
+    border-color: #02aeb1;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  #Month {
+    background-color: #02aeb1;
+    width: 170px;
+    height: 29px;
+    margin-top: 5px;
+    margin-left: -650px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+  }
+
+#Month * {
+      background-color: white;
+      color: black;
+}
+
+#anunturiText {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 170px;
+}
+
+ul {
+  color: grey;
+  font-weight: 600;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  height: 220px;
+  border: 2px solid #02aeb1;
+  
+  -webkit-overflow-scrolling: touch;
+}
+
+li {
+  padding: 10px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+li:nth-child(even) {
+  background: #f8f8f8;
+}
+
+#anunt {
+  margin-left: 30px;
+  display: inline;
+}
+
+#iconExclamare {
+  float: right;
+}

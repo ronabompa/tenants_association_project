@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Statistici</title>
+    <link rel="stylesheet" href="../../css/statistici.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/fonts.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../js/statistici.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        background-image: url("../../images/background.png");
+        background-size: cover;
+      }
+    </style>
+  </head>
+  
+  <body class="grid-container">
+    <div class="Navbar">
+      <img src="../../images/buildings.png" class="Icon" />
+      <a href="index.html" class="NavItem NavItemFont">Profilul meu</a>
+      <a href="statistici.html" class="NavItem NavItemFont" id="defaultItem">Statistici</a>
+      <a href="avizier.html" class="NavItem NavItemFont">Avizier</a>
+      <a href="contoare.html" class="NavItem NavItemFont">Contoare</a>
+      <a href="plati.html" class="NavItem NavItemFont">Plati</a>
+      <a href="sesizari.html" class="NavItem NavItemFont">Sesizari</a>
+      <a href="poll.html" class="NavItem NavItemFont">Polls</a>
+      <a href="boxa.html" class="NavItem NavItemFont">Boxa</a>
+      <button
+        id="contactButton"
+        class="NavItemFont NavButton"
+        onclick="location.href='contacte.html';"
+      >
+        Contact
+      </button>
+      <a href="../login.html">
+        <img src="../../images/logout.png" class="LogoutIcon"
+      /></a>
+    </div>
+  </nav>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Selecteaza interval...</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a onclick="showPreview()" href="#">Statistici luna curenta</a>
+          <a onclick="showPreview2()" href="#">Statistici luna anterioare</a>
+          <a onclick="showPreview3()" href="#">Statistici pe 3 luni</a>
+          <a onclick="showPreview4()" href="#">Statistici pe anul curent</a>
+        </div>
+      </div>
+      <div class="grid-poza" id="poza">
+
+        <span class="tooltiptext">Current: 57,65 RON</span>
+      </div>
+    <!-- <div class="blankC"></div> -->
+    <div class="blankC1"></div>
+    <div class="blankC2"></div>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <title>Sesizari</title>
+    <link rel="stylesheet" href="../../css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="../../css/fonts.css" type="text/css"/>
+    <link rel="stylesheet" href="../../css/user/sesizari.css" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <SCRIPT src="../../js/sesizari.js" type="text/javascript"></SCRIPT>
+    <style>
+        body {
+            background-image: url("../../images/background.png");
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<nav>
+    <div class="Navbar">
+        <img src="../../images/calendar.png" class="Icon" alt="no image"/>
+        <a href="index.html" class="NavItem NavItemFont">Profilul meu</a>
+        <a href="statistici.html" class="NavItem NavItemFont">Statistici</a>
+        <a href="avizier.html" class="NavItem NavItemFont">Avizier</a>
+        <a href="contoare.html" class="NavItem NavItemFont">Contoare</a>
+        <a href="plati.html" class="NavItem NavItemFont">Plati</a>
+        <a href="sesizari.html" class="NavItem NavItemFont" id="defaultItem">Sesizari</a>
+        <a href="poll.html" class="NavItem NavItemFont">Polls</a>
+        <a href="boxa.html" class="NavItem NavItemFont">Boxa</a>
+        <button
+                id="contactButton"
+                class="NavItemFont NavButton"
+                onclick="location.href='contacte.html';"
+        >
+            Contact
+        </button>
+        <a href="../login.html">
+            <img src="../../images/logout.png" class="LogoutIcon"
+                 alt="no image"/></a>
+    </div>
+</nav>
+
+<div id="SesizariPage">
+
+    <h1 id="mesajID"> Mesaj pentru administrator </h1>
+
+    <div id="divFormID">
+        <form id="formID">
+
+            <label for="title_input" id="labelTitluID"> TITLU * </label>
+            <input type="text" id="title_input"/>
+
+
+            <label for="message_input" id="labelMesajID"> MESAJ * </label>
+            <textarea id="message_input"> </textarea>
+
+
+            <label for="attachment_input" id="labelAtasamentID"> ATASAMENT </label>
+            <div id="divAttachmentID">
+                <label for="attachment_input" id="labelAttachmentIconID">
+                    <img width="28" height="28" src="../../images/attachment-icon.png" alt=""></label>
+                <input type="file" id="attachment_input"/>
+            </div>
+
+            <div id="divsugestie-sesizareID">
+                <div id="divSugestieID">
+                    <label for="sugestie" id="labelSugestieID"> SUGESTIE </label>
+                    <input type="radio" id="sugestie" name="tip_sesizare"/>
+                </div>
+
+                <div id="divSesizareID">
+                    <label for="sesizare" id="labelSesizareID"> SESIZARE </label>
+                    <input type="radio" id="sesizare" name="tip_sesizare"/>
+                </div>
+            </div>
+
+
+            <div id="divAllNivImpID">
+                <div id="divNivImpID">
+                    <label id="nivUrgID"> NIVEL DE IMPORTANTA </label>
+                </div>
+
+                <div id="divUrg1ID">
+                    <img src="../../images/exclamare1.png">
+                    <input type="radio" id="niv_urg_1" name="nivel_urg_buttons"/>
+                </div>
+
+                <div id="divUrg2ID">
+                    <img src="../../images/exclamare.png">
+                    <input type="radio" id="niv_urg_2" name="nivel_urg_buttons"/>
+                </div>
+            </div>
+
+            <div id="divTrimite">
+                <input id="trimiteID" type="button" value="Trimite" disabled/>
+            </div>
+            <div id="divAnuleaza">
+                <input id="anuleazaID" type="reset" value="Anuleaza"/>
+            </div>
+
+        </form>
+
+
+        <div id="divMesajTrimisID">
+            <p id="mesajTrimisID"> Mesajul a fost trimis! </p>
+        </div>
+
+
+    </div>
+
+
+</div>
+</body>
+</html>
+

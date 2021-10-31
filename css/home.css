@@ -1,0 +1,143 @@
+#HomePage {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 620px;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#apartamentAlign {
+  margin-left: 300px;
+}
+#dataAlign {
+  margin-left: 390px;
+}
+#sumaAlign {
+  margin-left: 350px;
+}
+#numarAlign {
+  margin-left: 285px;
+}
+#detaliiAlign {
+  margin-left: 380px;
+}
+
+#person1 {
+  margin-left: 170px;
+  height: 40px;
+}
+
+#person2 {
+  margin-left: 20px;
+  height: 40px;
+}
+
+#person3 {
+  margin-left: 20px;
+  height: 40px;
+}
+#person4 {
+  margin-left: 20px;
+  height: 40px;
+}
+
+#apartamentContentAlign {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#numarApAlign {
+  margin-left: 290px;
+  color: rgb(92, 92, 92);
+}
+
+#dataFacturareAlign {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#dataFacturare {
+  margin-left: 180px;
+  color: rgb(92, 92, 92);
+}
+
+#sumaPlataAlign {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#sumaPlata {
+  margin-left: 270px;
+  color: rgb(92, 92, 92);
+}
+
+#numarPersoaneAlign {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#numarPersoane {
+  margin-left: 255px;
+  color: rgb(92, 92, 92);
+}
+
+#detaliiPersoaneAlign {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#hartaAp {
+  margin-left: 600px;
+}
+
+#apartamentImage {
+  height: 220px;
+  margin-left: 600px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  border-color: gray;
+  border-style: solid;
+  border-width: thin;
+  color: "gray";
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 94%;
+  margin-left: -60px;
+}
+
+.tooltiptext {
+  color: gray;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: gray transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

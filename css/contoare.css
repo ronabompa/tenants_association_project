@@ -1,0 +1,105 @@
+#ContoarePage {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+.ContoareTable {
+    border-collapse: collapse;
+}
+
+.ContoareTable th,
+.ContoareTable td {
+  border: 1px solid grey;
+  padding: 7px;
+  text-align: center;
+}
+
+.ContoareTable tr:nth-child(odd) {
+  background-color: #d4d4d4;
+}
+
+.ContoareTable.ContorSize th {
+  width: 94px;
+}
+
+ .contoare {
+    margin-top: 100px;
+    margin-right: 500px;
+    display: inline-flex;
+} 
+
+#apacalda {
+   padding: 10px;
+   border: 1px solid grey;
+   border-radius: 5px;
+   float: left;
+   margin-left: 220px;
+}
+
+
+#aparece {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: right;
+    margin-right: -290px;
+    margin-left: 100px;
+}
+
+#arrow1 {
+    height: 10px;
+    margin-left: 3px;
+}
+
+#arrow2 {
+    height: 10px;
+    margin-left: 3px;
+}
+
+#hot {
+    height: 20px;
+}
+
+#cold {
+    height: 20px;
+}
+
+.ColdWater {
+    width: 0px; 
+    height: 0px;
+    top: 50%;
+    left: 50%;
+    margin-top: -5px;
+    margin-left: 620px;
+    font-family: Helvetica, sans-serif;
+    visibility: hidden;
+}
+  
+.ContoareTable.ColdSize th {
+    width: 35px;
+}
+
+.HotWater {
+    background-color: white;
+    width: 0px; 
+    height: 0px;
+    top: 50%;
+    left: 50%;
+    margin-top: -1px;
+    margin-left: -70px;
+    font-family: Helvetica, sans-serif;
+    visibility: hidden;
+}
+  
+.ContoareTable.HotSize th {
+    width: 35px;
+}
+
+

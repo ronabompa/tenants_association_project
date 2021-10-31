@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profilul meu</title>
+    <link rel="stylesheet" href="../../css/index.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/home.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <style>
+      body {
+        background-image: url("../../images/background.png");
+        background-size: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div class="Navbar">
+        <img src="../../images/buildings.png" class="Icon" />
+        <a href="index.html" class="NavItem NavItemFont" id="defaultItem"
+          >Profilul meu</a
+        >
+        <a href="statistici.html" class="NavItem NavItemFont">Statistici</a>
+        <a href="avizier.html" class="NavItem NavItemFont">Avizier</a>
+        <a href="contoare.html" class="NavItem NavItemFont">Contoare</a>
+        <a href="plati.html" class="NavItem NavItemFont">Plati</a>
+        <a href="sesizari.html" class="NavItem NavItemFont">Sesizari</a>
+        <a href="poll.html" class="NavItem NavItemFont">Polls</a>
+        <a href="boxa.html" class="NavItem NavItemFont">Boxa</a>
+        <button
+          id="contactButton"
+          class="NavItemFont NavButton"
+          onclick="location.href='contacte.html';"
+        >
+          Contact
+        </button>
+        <a href="../login.html">
+          <img src="../../images/logout.png" class="LogoutIcon"
+        /></a>
+      </div>
+    </nav>
+
+    <div id="HomePage">
+      <div id="apartamentContentAlign">
+        <h3 id="apartamentAlign">Apartament</h3>
+        <h3 id="numarApAlign">14</h3>
+      </div>
+      <div id="dataFacturareAlign">
+        <h3 id="dataAlign">Data facturare</h3>
+        <h3 id="dataFacturare">01.09.2020 - 01.10.2020</h3>
+      </div>
+      <div id="sumaPlataAlign">
+        <h3 id="sumaAlign">Suma plata</h3>
+        <h3 id="sumaPlata">287.13 <u>RON</u></h3>
+      </div>
+      <div id="numarPersoaneAlign">
+        <h3 id="numarAlign">Numar persoane</h3>
+        <h3 id="numarPersoane">4</h3>
+      </div>
+      <div id="detaliiPersoaneAlign">
+        <h3 id="detaliiAlign">Detalii locatari</h3>
+        <div class="tooltip">
+          <img id="person1" src="../../images/person1.png" />
+          <span class="tooltiptext">
+            Ion Ionescu <br />
+            42 ani
+          </span>
+        </div>
+        <div class="tooltip">
+          <img id="person2" src="../../images/person2.png" />
+          <span class="tooltiptext">
+            Ana Ionescu <br />
+            40 ani
+          </span>
+        </div>
+        <div class="tooltip">
+          <img id="person3" src="../../images/person3.png" />
+          <span class="tooltiptext">
+            Gigel Ionescu <br />
+            7 ani
+          </span>
+        </div>
+        <div class="tooltip">
+          <img id="person4" src="../../images/person4.png" />
+          <span class="tooltiptext">
+            Gina Ionescu <br />
+            11 ani
+          </span>
+        </div>
+      </div>
+      <h2 id="hartaAp">Harta apartament</h2>
+      <img id="apartamentImage" src="../../images/apartament.png" />
+    </div>
+  </body>
+</html>

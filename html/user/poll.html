@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Poll</title>
+    <link rel="stylesheet" href="../../css/poll.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/fonts.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <script src="../../js/addOpPoll.js" type="text/javascript"></script> -->
+    <script src="../../js/poll.js" type="text/javascript"></script>
+
+    <style>
+      body {
+        background-image: url("../../images/background.png");
+        background-size: cover;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <nav>
+      <div class="Navbar">
+        <img src="../../images/buildings.png" class="Icon" />
+        <a href="index.html" class="NavItem NavItemFont" >Profilul meu</a>
+        <a href="statistici.html" class="NavItem NavItemFont">Statistici</a>
+        <a href="avizier.html" class="NavItem NavItemFont">Avizier</a>
+        <a href="contoare.html" class="NavItem NavItemFont">Contoare</a>
+        <a href="plati.html" class="NavItem NavItemFont">Plati</a>
+        <a href="sesizari.html" class="NavItem NavItemFont">Sesizari</a>
+        <a href="poll.html" class="NavItem NavItemFont" id="defaultItem">Polls</a>
+        <a href="boxa.html" class="NavItem NavItemFont">Boxa</a>
+        <button
+          id="contactButton"
+          class="NavItemFont NavButton"
+          onclick="location.href='contacte.html';"
+        >
+          Contact
+        </button>
+        <a href="../login.html">
+          <img src="../../images/logout.png" class="LogoutIcon"
+        /></a>
+      </div>
+    </nav>
+    <form class ="myForm">
+        <p>Doriti sa se efectueze dezinsectie?</p>
+        <input type="radio" id="da2">
+        <label for="da2">Da, doresc sa se efectueze atat in apartament cat si pe casa scarii</label><br>
+        <input type="radio" id="da1">
+        <label for="da1">Da, da doar pe casa scarii</label><br>
+        <input type="radio" id="nu">
+        <label for="nu">Nu</label>
+        
+    </form>
+    <p id="firstSugestion"></p><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <form action="addOpPoll.html" method="get" target="_self">
+      <button type="submit" id="optionbtn">Adauga optiune</button>
+    </form>
+        
+          <br> <br><br>
+    <form class="myForm2">
+      <p>Doriti sa se schimbe acoperisul?</p>
+          <input type="radio" id="da">
+          <label for="da">Da</label><br>
+          <input type="radio" id="nu2">
+          <label for="nu2">Nu</label>
+    </form><br><br><br><br><br><br> <br><br>
+    <p id="secondSugestion"></p><br><br><br><br>
+        
+
+    <form action="addOpPoll.html" method="get" target="_self">
+      <button type="submit" id="optionbtn1">Adauga optiune</button>
+    </form><br><br>
+
+        <!-- <button onclick = "addTextBox1()" class="optionbtn1">Adauga optiune</button> -->
+      
+    <button onclick ="showMsg()" class="savebtn">Salveaza</button>
+  
+          
+  </body>
+</html>
